@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/gwen/ESP/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/gwen/N19AP/test/Piltover/ESP32_first_look/ESP32_first_look_ep4/build/bootloader",
+    "config_file":        "/Users/gwen/N19AP/test/Piltover/ESP32_first_look/ESP32_first_look_ep4/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3.2",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/gwen/ESP/esp-idf/components/efuse/Kconfig;/Users/gwen/ESP/esp-idf/components/esp32/Kconfig;/Users/gwen/ESP/esp-idf/components/esp_common/Kconfig;/Users/gwen/ESP/esp-idf/components/esp_system/Kconfig;/Users/gwen/ESP/esp-idf/components/log/Kconfig;/Users/gwen/ESP/esp-idf/components/newlib/Kconfig;/Users/gwen/ESP/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/gwen/ESP/esp-idf/components/bootloader/Kconfig.projbuild;/Users/gwen/ESP/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/gwen/ESP/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/gwen/ESP/esp-idf/components/bootloader", "/Users/gwen/ESP/esp-idf/components/bootloader_support", "/Users/gwen/ESP/esp-idf/components/efuse", "/Users/gwen/ESP/esp-idf/components/esp32", "/Users/gwen/ESP/esp-idf/components/esp_common", "/Users/gwen/ESP/esp-idf/components/esp_hw_support", "/Users/gwen/ESP/esp-idf/components/esp_rom", "/Users/gwen/ESP/esp-idf/components/esp_system", "/Users/gwen/ESP/esp-idf/components/esptool_py", "/Users/gwen/ESP/esp-idf/components/hal", "/Users/gwen/ESP/esp-idf/components/log", "/Users/gwen/ESP/esp-idf/components/bootloader/subproject/main", "/Users/gwen/ESP/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/gwen/ESP/esp-idf/components/newlib", "/Users/gwen/ESP/esp-idf/components/partition_table", "/Users/gwen/ESP/esp-idf/components/soc", "/Users/gwen/ESP/esp-idf/components/spi_flash", "/Users/gwen/ESP/esp-idf/components/xtensa", "" ]
+}
