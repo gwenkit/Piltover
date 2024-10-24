@@ -29,12 +29,17 @@ void setup() {
   lcd.fillScreen(ST77XX_BLACK);
 }
 
+
 void loop() {
   // put your main code here, to run repeatedly:
 
   lcd.setTextSize(3);
   lcd.print("ARCANE");
-  delay(100000);
+
+  Serial.begin(9600);
+  Serial.println("Hello, world!");
+
+  delay(1000 * 10);
 }
 
 
