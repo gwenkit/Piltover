@@ -1,5 +1,0 @@
-source "/Users/gwen/ESP/esp-idf/components/app_update/Kconfig.projbuild"
-source "/Users/gwen/ESP/esp-idf/components/bootloader/Kconfig.projbuild"
-source "/Users/gwen/ESP/esp-idf/components/esptool_py/Kconfig.projbuild"
-source "/Users/gwen/ESP/esp-idf/components/partition_table/Kconfig.projbuild"
-source "/Users/gwen/N19AP/test/Piltover/ESP32_first_look/ESP32_first_look_ep3/main/Kconfig.projbuild"
